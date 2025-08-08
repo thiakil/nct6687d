@@ -155,7 +155,7 @@ static inline void superio_exit(int ioreg)
 /* Common and NCT6687 specific data */
 
 #define NCT6687_NUM_REG_VOLTAGE (sizeof(nct6687_voltage_definition) / sizeof(struct voltage_reg))
-#define NCT6687_NUM_REG_TEMP 7
+#define NCT6687_NUM_REG_TEMP 4
 #define NCT6687_NUM_REG_FAN 8
 #define NCT6687_NUM_REG_PWM 8
 
